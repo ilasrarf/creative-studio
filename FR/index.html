@@ -3,13 +3,13 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Arkitektur - Architecture HTML Template</title>
+    <title>Creative Studio</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
 
     <!-- Favicon -->
-    <link href="img/favicon.ico" rel="icon">
+    <link href="../img/icons/icon-1.png" rel="icon">
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -21,22 +21,22 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
 
     <!-- Libraries Stylesheet -->
-    <link href="lib/animate/animate.min.css" rel="stylesheet">
-    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+    <link href="../lib/animate/animate.min.css" rel="stylesheet">
+    <link href="../lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="../lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
 
     <!-- Customized Bootstrap Stylesheet -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css_fr/bootstrap.min.css" rel="stylesheet">
 
     <!-- Template Stylesheet -->
-    <link href="css/style.css" rel="stylesheet">
+    <link href="css_fr/style.css" rel="stylesheet">
 </head>
 
 <body>
     <!-- Spinner Start -->
     <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
         <div class="spinner-border position-relative text-primary" style="width: 6rem; height: 6rem;" role="status"></div>
-        <img class="position-absolute top-50 start-50 translate-middle" src="img/icons/icon-1.png" alt="Icon">
+        <img class="position-absolute top-50 start-50 translate-middle" src="../img/icons/icon-1.png" style="width: 50px; height: 50px; " alt="Icon">
     </div>
     <!-- Spinner End -->
 
@@ -46,8 +46,8 @@
         <div class="row gx-0 d-none d-lg-flex">
             <div class="col-lg-7 px-5 text-start">
                 <div class="h-100 d-inline-flex align-items-center py-3 me-3">
-                    <a class="text-body px-2" href="tel:+0123456789"><i class="fa fa-phone-alt text-primary me-2"></i>+012 345 6789</a>
-                    <a class="text-body px-2" href="mailto:info@example.com"><i class="fa fa-envelope-open text-primary me-2"></i>info@example.com</a>
+                    <a class="px-2" style="color: #fff;"><i class="fa fa-phone-alt text-primary me-2"></i>05 28 21 52 30</a>
+                    <a class="px-2" style="color: #fff;"><i class="fa fa-envelope-open text-primary me-2"></i>creative.studio@yahoo.fr</a>
                 </div>
             </div>
             <div class="col-lg-5 px-5 text-end">
@@ -65,36 +65,42 @@
 
     <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top py-lg-0 px-lg-5 wow fadeIn" data-wow-delay="0.1s">
-        <a href="index.html" class="navbar-brand ms-4 ms-lg-0">
-            <h1 class="text-primary m-0"><img class="me-3" src="img/icons/icon-1.png" alt="Icon">Arkitektur</h1>
+        <a href="index.html" class="navbar-brand ms-3 ms-lg-0">
+            <h1 class="text-primary"><img src="../img/icons/logoo.png" class="respon-loge" alt="Icon"></h1>
         </a>
-        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+        <button type="button" class="navbar-toggler me-2" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-            <div class="navbar-nav ms-auto p-4 p-lg-0">
-                <a href="index.html" class="nav-item nav-link active">Home</a>
-                <a href="about.html" class="nav-item nav-link">About</a>
-                <a href="service.html" class="nav-item nav-link">Services</a>
-                <div class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
-                    <div class="dropdown-menu border-0 m-0">
-                        <a href="feature.html" class="dropdown-item">Our Features</a>
-                        <a href="project.html" class="dropdown-item">Our Projects</a>
-                    </div>
-                </div>
+        <div class="collapse navbar-collapse d-lg-flex justify-content-between" id="navbarCollapse">
+            <div></div>
+            <div class="navbar-nav p-4 p-lg-0">
+                <a href="index.html" class="nav-item nav-link active">Accueil</a>
+                <a href="about.html" class="nav-item nav-link">À propos</a>
+                <a href="service.html" class="nav-item nav-link">les services</a>
+                <a href="project.html" class="nav-item nav-link">Projets</a>
                 <a href="contact.html" class="nav-item nav-link">Contact</a>
+            </div>
+            <div class="btn-group ms-3">
+                <button type="button" class="btn btn-primary dropdown-toggle margin-for-btn" data-bs-toggle="dropdown" aria-expanded="false">
+                    <span>
+                        <img src="../img/icons/frances.png" alt="">
+                        francais
+                    </span>
+                </button>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="index.html"><img class="me-3" src="../img/icons/frances.png" alt="">francais</a></li>
+                    <li><a class="dropdown-item" href="../AR/index.html"><img class="me-3" src="../img/icons/morocco.png" alt="">العربية</a></li>
+                </ul>
             </div>
         </div>
     </nav>
     <!-- Navbar End -->
 
-
     <!-- Carousel Start -->
     <div class="container-fluid p-0 pb-5 wow fadeIn" data-wow-delay="0.1s">
         <div class="owl-carousel header-carousel position-relative">
-            <div class="owl-carousel-item position-relative" data-dot="<img src='img/carousel-1.jpg'>">
-                <img class="img-fluid" src="img/carousel-1.jpg" alt="">
+            <div class="owl-carousel-item position-relative" data-dot="<img src='../img/carousel-1.jpg'>">
+                <img class="img-fluid" src="../img/carousel-1.jpg" alt="">
                 <div class="owl-carousel-inner">
                     <div class="container">
                         <div class="row justify-content-start">
@@ -107,8 +113,8 @@
                     </div>
                 </div>
             </div>
-            <div class="owl-carousel-item position-relative" data-dot="<img src='img/carousel-2.jpg'>">
-                <img class="img-fluid" src="img/carousel-2.jpg" alt="">
+            <div class="owl-carousel-item position-relative" data-dot="<img src='../img/carousel-2.jpg'>">
+                <img class="img-fluid" src="../img/carousel-2.jpg" alt="">
                 <div class="owl-carousel-inner">
                     <div class="container">
                         <div class="row justify-content-start">
@@ -121,8 +127,8 @@
                     </div>
                 </div>
             </div>
-            <div class="owl-carousel-item position-relative" data-dot="<img src='img/carousel-3.jpg'>">
-                <img class="img-fluid" src="img/carousel-3.jpg" alt="">
+            <div class="owl-carousel-item position-relative" data-dot="<img src='../img/carousel-3.jpg'>">
+                <img class="img-fluid" src="../img/carousel-3.jpg" alt="">
                 <div class="owl-carousel-inner">
                     <div class="container">
                         <div class="row justify-content-start">
@@ -139,70 +145,58 @@
     </div>
     <!-- Carousel End -->
 
-
-    <!-- Facts Start -->
-    <div class="container-xxl py-5">
-        <div class="container pt-5">
-            <div class="row g-4">
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="fact-item text-center bg-light h-100 p-5 pt-0">
-                        <div class="fact-icon">
-                            <img src="img/icons/icon-2.png" alt="Icon">
-                        </div>
-                        <h3 class="mb-3">Design Approach</h3>
-                        <p class="mb-0">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
-                    </div>
+    <!-- ======= Clients Section ======= -->
+    <section id="clients" class="clients">
+        <div class="container" data-aos="zoom-in">
+            <div class="row">
+                <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+                    <img src="../img/campany-1.png" class="img-fluid" alt="">
                 </div>
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="fact-item text-center bg-light h-100 p-5 pt-0">
-                        <div class="fact-icon">
-                            <img src="img/icons/icon-3.png" alt="Icon">
-                        </div>
-                        <h3 class="mb-3">Innovative Solutions</h3>
-                        <p class="mb-0">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
-                    </div>
+                <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+                <img src="../img/campany-2.png" class="img-fluid" alt="">
                 </div>
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="fact-item text-center bg-light h-100 p-5 pt-0">
-                        <div class="fact-icon">
-                            <img src="img/icons/icon-4.png" alt="Icon">
-                        </div>
-                        <h3 class="mb-3">Project Management</h3>
-                        <p class="mb-0">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
-                    </div>
+                <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+                    <img src="../img/campany-3.png" class="img-fluid" alt="">
+                </div>
+                <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+                    <img src="../img/campany-4.png" class="img-fluid" alt="">
+                </div>
+                <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+                    <img src="../img/campany-5.png" class="img-fluid" alt="">
+                </div>
+                <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+                    <img src="../img/campany-6.png" class="img-fluid" alt="">
                 </div>
             </div>
         </div>
-    </div>
-    <!-- Facts End -->
-
+    </section>
+    <!-- End Clients Section -->
 
     <!-- About Start -->
-    <div class="container-xxl py-5">
+    <div class="container-xxl py-5 mt-6">
         <div class="container">
             <div class="row g-5">
                 <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
                     <div class="about-img">
-                        <img class="img-fluid" src="img/about-1.jpg" alt="">
-                        <img class="img-fluid" src="img/about-2.jpg" alt="">
+                        <img class="img-fluid" src="../img/about-1.jpg" alt="">
+                        <img class="img-fluid" src="../img/about-2.jpg" alt="">
                     </div>
                 </div>
                 <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
-                    <h4 class="section-title">About Us</h4>
-                    <h1 class="display-5 mb-4">A Creative Architecture Agency For Your Dream Home</h1>
-                    <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
-                    <p class="mb-4">Stet no et lorem dolor et diam, amet duo ut dolore vero eos. No stet est diam rebum amet diam ipsum. Clita clita labore, dolor duo nonumy clita sit at, sed sit sanctus dolor eos.</p>
+                    <h4 class="section-title">À PROPOS DE NOUS</h4>
+                    <h1 class="display-5 mb-3">l'imprimerie  professionnelle qui vous guidera dans tous vos besoins </h1>
+                    <p>Bienvenue dans l'imprimerie compétente et professionnelle qui vous guidera dans tous vos besoins de tout type d'impression. Basée à Agadir, elle cherche à conserver son avance technologique grâce à sa qualité et son expérience dans le domaine de la publicité.</p>
                     <div class="d-flex align-items-center mb-5">
                         <div class="d-flex flex-shrink-0 align-items-center justify-content-center border border-5 border-primary" style="width: 120px; height: 120px;">
-                            <h1 class="display-1 mb-n2" data-toggle="counter-up">25</h1>
+                            <h1 class="display-1 mb-n2" data-toggle="counter-up">8</h1>
                         </div>
                         <div class="ps-4">
-                            <h3>Years</h3>
-                            <h3>Working</h3>
-                            <h3 class="mb-0">Experience</h3>
+                            <h3>Années</h3>
+                            <h3>d'expérience</h3>
+                            <h3 class="mb-0">professionnelle</h3>
                         </div>
                     </div>
-                    <a class="btn btn-primary py-3 px-5" href="">Read More</a>
+                    <a class="btn btn-primary py-3 px-5" href="about.html">Lire la suite</a>
                 </div>
             </div>
         </div>
@@ -214,77 +208,79 @@
     <div class="container-xxl py-5">
         <div class="container">
             <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
-                <h4 class="section-title">Our Services</h4>
+                <h4 class="section-title">Nos services</h4>
                 <h1 class="display-5 mb-4">We Focused On Modern Architecture And Interior Design</h1>
             </div>
             <div class="row g-4">
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="service-item d-flex position-relative text-center h-100">
-                        <img class="bg-img" src="img/service-1.jpg" alt="">
+                        <img class="bg-img" src="../img/service-1.jpg" alt="">
                         <div class="service-text p-5">
-                            <img class="mb-4" src="img/icons/icon-5.png" alt="Icon">
-                            <h3 class="mb-3">Architecture</h3>
-                            <p class="mb-4">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
+                            <img class="mb-4" src="../img/icons/icon-5.png" alt="Icon">
+                            <h3 class="mb-3">Impression Offset</h3>
+                            <p class="mb-4">L'offset est un procédé d'impression qui est l’amélioration de la lithographie, remplaçant la pierre lithographique par une plaque souple</p>
                             <!-- <a class="btn" href=""><i class="fa fa-plus text-primary me-3"></i>Read More</a> -->
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="service-item d-flex position-relative text-center h-100">
-                        <img class="bg-img" src="img/service-2.jpg" alt="">
+                        <img class="bg-img" src="../img/service-2.png" alt="">
                         <div class="service-text p-5">
-                            <img class="mb-4" src="img/icons/icon-6.png" alt="Icon">
-                            <h3 class="mb-3">3D Animation</h3>
-                            <p class="mb-4">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
+                            <img class="mb-4" src="../img/icons/icon-6.png" alt="Icon">
+                            <h3 class="mb-3">Impression Numérique</h3>
+                            <p class="mb-4">L'impression numérique est une technique de reproduction permettant d'imprimer des documents directement depuis des données informatiques.</p>
                             <!-- <a class="btn" href=""><i class="fa fa-plus text-primary me-3"></i>Read More</a> -->
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="service-item d-flex position-relative text-center h-100">
-                        <img class="bg-img" src="img/service-3.jpg" alt="">
-                        <div class="service-text p-5">
-                            <img class="mb-4" src="img/icons/icon-7.png" alt="Icon">
-                            <h3 class="mb-3">House Planning</h3>
-                            <p class="mb-4">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
+                        <img class="bg-img" src="../img/service-3.jpg" alt="">
+                        <div class="service-text p-5 ">
+                            <h3 class="mb-3 mt-4">Spirale métallique</h3>
+                            <p class="mb-4">Egalement appelée Wire'o, la spirale métallique permet l'assemblage d'un document par anneaux métalliques. Les spirales peuvent également être de couleur et plus ou moins grandes.</p>
                             <!-- <a class="btn" href=""><i class="fa fa-plus text-primary me-3"></i>Read More</a> -->
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="service-item d-flex position-relative text-center h-100">
-                        <img class="bg-img" src="img/service-4.jpg" alt="">
+                        <img class="bg-img" src="../img/service-4.jpg" alt="">
                         <div class="service-text p-5">
-                            <img class="mb-4" src="img/icons/icon-8.png" alt="Icon">
-                            <h3 class="mb-3">Interior Design</h3>
-                            <p class="mb-4">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
+                            <img class="mb-4" src="../img/icons/icon-8.png" alt="Icon">
+                            <h3 class="mb-3">Pelliculage</h3>
+                            <p class="mb-4">Le pelliculage consiste à appliquer à l'aide d'une pelliculeuse ou machine de pelliculage un film plastique sur une surface.</p>
                             <!-- <a class="btn" href=""><i class="fa fa-plus text-primary me-3"></i>Read More</a> -->
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="service-item d-flex position-relative text-center h-100">
-                        <img class="bg-img" src="img/service-5.jpg" alt="">
+                        <img class="bg-img" src="../img/service-5.png" alt="">
                         <div class="service-text p-5">
-                            <img class="mb-4" src="img/icons/icon-9.png" alt="Icon">
-                            <h3 class="mb-3">Renovation</h3>
-                            <p class="mb-4">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
+                            <img class="mb-4" src="../img/icons/icon-9.png" alt="Icon">
+                            <h3 class="mb-3">Découpe</h3>
+                            <p class="mb-4">Le découpage est un procédé de fabrication de pièces qui consiste à diviser un sous-produit en plusieurs parties.</p>
                             <!-- <a class="btn" href=""><i class="fa fa-plus text-primary me-3"></i>Read More</a> -->
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="service-item d-flex position-relative text-center h-100">
-                        <img class="bg-img" src="img/service-6.jpg" alt="">
+                        <img class="bg-img" src="../img/service-6.jpg" alt="">
                         <div class="service-text p-5">
-                            <img class="mb-4" src="img/icons/icon-10.png" alt="Icon">
-                            <h3 class="mb-3">Construction</h3>
-                            <p class="mb-4">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
+                            <img class="mb-4" src="../img/icons/icon-10.png" alt="Icon">
+                            <h3 class="mb-3">Pliage</h3>
+                            <p class="mb-4">Traduit de l'anglais-Le pliage est un processus de fabrication qui produit une forme en V, en U ou en forme de canal le long d'un axe droit dans les matériaux ductiles</p>
                             <!-- <a class="btn" href=""><i class="fa fa-plus text-primary me-3"></i>Read More</a> -->
                         </div>
                     </div>
                 </div>
             </div>
+        </div>
+        <div class="d-flex justify-content-center wow fadeInUp" data-wow-delay="0.5s">
+            <a class="btn btn-primary py-3 px-5 mt-3" href="service.html">Lire la suite</a>
         </div>
     </div>
     <!-- Service End -->
@@ -295,34 +291,23 @@
         <div class="container">
             <div class="row g-5">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <h4 class="section-title">Why Choose Us!</h4>
-                    <h1 class="display-5 mb-4">Why You Should Trust Us? Learn More About Us!</h1>
-                    <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
+                    <h4 class="section-title">Pourquoi nous choisir !</h4>
+                    <h1 class="display-5 mb-4">Pourquoi devriez-vous nous faire confiance ? En savoir plus sur nous!</h1>
+                    <p class="mb-4">créative studio  dispose d'un outil de production moderne, piloté par un système de gestion de production entière et dispose d'un atelier de fabrication doté d'un matériel très professionnel, ce qui nous permet de vous offrir :</p>
                     <div class="row g-4">
                         <div class="col-12">
                             <div class="d-flex align-items-start">
-                                <img class="flex-shrink-0" src="img/icons/icon-2.png" alt="Icon">
+                                <img class="flex-shrink-0" src="../img/icons/icon-2.png" alt="Icon">
                                 <div class="ms-4">
-                                    <h3>Design Approach</h3>
-                                    <p class="mb-0">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12">
-                            <div class="d-flex align-items-start">
-                                <img class="flex-shrink-0" src="img/icons/icon-3.png" alt="Icon">
-                                <div class="ms-4">
-                                    <h3>Innovative Solutions</h3>
-                                    <p class="mb-0">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12">
-                            <div class="d-flex align-items-start">
-                                <img class="flex-shrink-0" src="img/icons/icon-4.png" alt="Icon">
-                                <div class="ms-4">
-                                    <h3>Project Management</h3>
-                                    <p class="mb-0">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
+                                    <h4>-un accueil attentif au désir de client </h4>
+                                    <h4>-un suivi de la réalisation de temps réel</h4>
+                                    <h4>-personnel hautement qualifie </h4>
+                                    <h4>-excellent rapport qualité \prix</h4>
+                                    <h4>-aujourd'hui vous avez un grand choix de couleurs.</h4>
+                                    <h4>-des tarifs ultra compétitifs </h4>
+                                    <h4>-un service commercial à vôtre écoute pour vous conseillez</h4>
+                                    <h4>-nous vous proposons notre large gamme de produits de qualité</h4>
+                                    <h4>-Créative studio  vous présente ses collections d'emballages pour   tous vos besoins</h4>
                                 </div>
                             </div>
                         </div>
@@ -330,8 +315,8 @@
                 </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="feature-img">
-                        <img class="img-fluid" src="img/about-2.jpg" alt="">
-                        <img class="img-fluid" src="img/about-1.jpg" alt="">
+                        <img class="img-fluid" src="../img/about-2.jpg" alt="">
+                        <img class="img-fluid" src="../img/about-1.jpg" alt="">
                     </div>
                 </div>
             </div>
@@ -344,8 +329,8 @@
     <div class="container-xxl project py-5">
         <div class="container">
             <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
-                <h4 class="section-title">Our Projects</h4>
-                <h1 class="display-5 mb-4">Visit Our Latest Projects And Our Innovative Works</h1>
+                <h4 class="section-title">Nos projets</h4>
+                <h1 class="display-5 mb-4">Visitez Nos Derniers Projets Et Nos Travaux Innovants</h1>
             </div>
             <div class="row g-4 wow fadeInUp" data-wow-delay="0.3s">
                 <div class="col-lg-4">
@@ -370,7 +355,7 @@
                             <div class="row g-4">
                                 <div class="col-md-6" style="min-height: 350px;">
                                     <div class="position-relative h-100">
-                                        <img class="position-absolute img-fluid w-100 h-100" src="img/project-1.jpg"
+                                        <img class="position-absolute img-fluid w-100 h-100" src="../img/project-1.jpg"
                                             style="object-fit: cover;" alt="">
                                     </div>
                                 </div>
@@ -388,7 +373,7 @@
                             <div class="row g-4">
                                 <div class="col-md-6" style="min-height: 350px;">
                                     <div class="position-relative h-100">
-                                        <img class="position-absolute img-fluid w-100 h-100" src="img/project-2.jpg"
+                                        <img class="position-absolute img-fluid w-100 h-100" src="../img/project-2.jpg"
                                             style="object-fit: cover;" alt="">
                                     </div>
                                 </div>
@@ -406,7 +391,7 @@
                             <div class="row g-4">
                                 <div class="col-md-6" style="min-height: 350px;">
                                     <div class="position-relative h-100">
-                                        <img class="position-absolute img-fluid w-100 h-100" src="img/project-3.jpg"
+                                        <img class="position-absolute img-fluid w-100 h-100" src="../img/project-3.jpg"
                                             style="object-fit: cover;" alt="">
                                     </div>
                                 </div>
@@ -424,7 +409,7 @@
                             <div class="row g-4">
                                 <div class="col-md-6" style="min-height: 350px;">
                                     <div class="position-relative h-100">
-                                        <img class="position-absolute img-fluid w-100 h-100" src="img/project-4.jpg"
+                                        <img class="position-absolute img-fluid w-100 h-100" src="../img/project-4.jpg"
                                             style="object-fit: cover;" alt="">
                                     </div>
                                 </div>
@@ -445,94 +430,98 @@
     </div>
     <!-- Project End -->
 
-    <!-- Appointment Start -->
-    <div class="container-xxl py-5">
-        <div class="container">
-            <div class="row g-5">
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <h4 class="section-title">Appointment</h4>
-                    <h1 class="display-5 mb-4">Make An Appointment To Start Your Dream Project</h1>
-                    <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
-                    <div class="row g-4">
-                        <div class="col-12">
-                            <div class="d-flex">
-                                <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-light" style="width: 65px; height: 65px;">
-                                    <i class="fa fa-2x fa-phone-alt text-primary"></i>
-                                </div>
-                                <div class="ms-4">
-                                    <p class="mb-2">Call Us Now</p>
-                                    <h3 class="mb-0">+012 345 6789</h3>
-                                </div>
-                            </div>
+   <!-- Contact Start -->
+   <div class="container-xxl py-5">
+    <div class="container">
+        <div class="row g-5">
+            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="d-flex flex-column justify-content-between ">
+                    <div class="bg-light d-flex align-items-center w-100 p-2 mb-4">
+                        <div class="d-flex flex-shrink-0 align-items-center justify-content-center fs-4" style="width: 55px; height: 55px;">
+                            <i class="fa fa-map-marker-alt text-primary"></i>
                         </div>
-                        <div class="col-12">
-                            <div class="d-flex">
-                                <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-light" style="width: 65px; height: 65px;">
-                                    <i class="fa fa-2x fa-envelope-open text-primary"></i>
-                                </div>
-                                <div class="ms-4">
-                                    <p class="mb-2">Mail Us Now</p>
-                                    <h3 class="mb-0">info@example.com</h3>
-                                </div>
-                            </div>
+                        <div class="ms-4">
+                            <p class="mb-2">Address</p>
+                            <h3 class="mb-0">14 Bis, Rue Mahdi Ben Barka, Cité Riad Salam, Agadir</h3>
+                        </div>
+                    </div>
+                    <div class="bg-light d-flex align-items-center w-100 p-2 mb-4">
+                        <div class="d-flex flex-shrink-0 align-items-center justify-content-center fs-4" style="width: 55px; height: 55px;">
+                            <i class="fa fa-phone-alt text-primary"></i>
+                        </div>
+                        <div class="ms-4">
+                            <p class="mb-2">Call Us Now</p>
+                            <h3 class="mb-0">05 28 21 52 30</h3>
+                        </div>
+                    </div>
+                    <div class="bg-light d-flex align-items-center w-100 p-2">
+                        <div class="d-flex flex-shrink-0 align-items-center justify-content-center fs-4" style="width: 55px; height: 55px;">
+                            <i class="fa fa-envelope-open text-primary"></i>
+                        </div>
+                        <div class="ms-4">
+                            <p class="mb-2">Mail Us Now</p>
+                            <h3 class="mb-0"><span class="content1">creative.studio</span><span>@yahoo.fr</span></h3>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                <div class="my-4">
+                    <iframe class="w-100 mb-n2" style="height: 200px;"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d852.3962033116782!2d-9.570250270791927!3d30.409228055471385!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xdb3b64b7be65c17%3A0xa4856da89562744c!2sCr%C3%A9ative%20Studio!5e1!3m2!1sfr!2sma!4v1649525665107!5m2!1sfr!2sma" 
+                    frameborder="0" allowfullscreen="" aria-hidden="false" tabindex="0">
+                    </iframe>
+                </div>
+            </div>
+            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                    <h4 class="section-title">Contact Us</h4>
+                    <h1 class="display-5 mb-4">If You Have Any Query, Please Feel Free Contact Us</h1>
+                </div>
+                <form>
                     <div class="row g-3">
-                        <div class="col-12 col-sm-6">
-                            <input type="text" class="form-control" placeholder="Your Name" style="height: 55px;">
-                        </div>
-                        <div class="col-12 col-sm-6">
-                            <input type="email" class="form-control" placeholder="Your Email" style="height: 55px;">
-                        </div>
-                        <div class="col-12 col-sm-6">
-                            <input type="text" class="form-control" placeholder="Your Mobile" style="height: 55px;">
-                        </div>
-                        <div class="col-12 col-sm-6">
-                            <select class="form-select" style="height: 55px;">
-                                <option selected>Choose Service</option>
-                                <option value="1">Service 1</option>
-                                <option value="2">Service 2</option>
-                                <option value="3">Service 3</option>
-                            </select>
-                        </div>
-                        <div class="col-12 col-sm-6">
-                            <div class="date" id="date" data-target-input="nearest">
-                                <input type="text"
-                                    class="form-control datetimepicker-input"
-                                    placeholder="Choose Date" data-target="#date" data-toggle="datetimepicker" style="height: 55px;">
+                        <div class="col-md-6">
+                            <div class="form-floating">
+                                <input type="text" class="form-control" id="name" placeholder="Your Name">
+                                <label for="name">Your Name</label>
                             </div>
                         </div>
-                        <div class="col-12 col-sm-6">
-                            <div class="time" id="time" data-target-input="nearest">
-                                <input type="text"
-                                    class="form-control datetimepicker-input"
-                                    placeholder="Choose Date" data-target="#time" data-toggle="datetimepicker" style="height: 55px;">
+                        <div class="col-md-6">
+                            <div class="form-floating">
+                                <input type="email" class="form-control" id="email" placeholder="Your Email">
+                                <label for="email">Your Email</label>
                             </div>
                         </div>
                         <div class="col-12">
-                            <textarea class="form-control" rows="5" placeholder="Message"></textarea>
+                            <div class="form-floating">
+                                <input type="text" class="form-control" id="subject" placeholder="Subject">
+                                <label for="subject">Subject</label>
+                            </div>
                         </div>
                         <div class="col-12">
-                            <button class="btn btn-primary w-100 py-3" type="submit">Book Appointment</button>
+                            <div class="form-floating">
+                                <textarea class="form-control" placeholder="Leave a message here" id="message" style="height: 100px"></textarea>
+                                <label for="message">Message</label>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <button class="btn btn-primary w-100 py-3" type="submit">Send Message</button>
                         </div>
                     </div>
-                </div>
+                </form>
             </div>
         </div>
     </div>
-    <!-- Appointment End -->
-
+</div>
+<!-- Contact End -->
     <!-- Footer Start -->
     <div class="container-fluid bg-dark text-body footer mt-5 pt-5 px-0 wow fadeIn" data-wow-delay="0.1s">
         <div class="container py-5">
             <div class="row">
                 <div class="col-lg-3 col-md-6">
-                    <h3 class="text-light mb-4">Address</h3>
-                    <p class="mb-2"><i class="fa fa-map-marker-alt text-primary me-3"></i>123 Street, New York, USA</p>
-                    <p class="mb-2"><i class="fa fa-phone-alt text-primary me-3"></i>+012 345 67890</p>
-                    <p class="mb-2"><i class="fa fa-envelope text-primary me-3"></i>info@example.com</p>
+                    <h3 class="text-light mb-4">Adresse</h3>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt text-primary me-3"></i>14 Bis, Rue Mahdi Ben Barka, Cité Riad Salam, Agadir</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt text-primary me-3"></i>05 28 21 52 30</p>
+                    <p class="mb-2"><img src="../img/icons/fax-x.png" width="24px" class="text-primary me-2" >05 28 23 73 51</p>
+                    <p class="mb-2"><i class="fa fa-envelope text-primary me-3"></i>creative.studio@yahoo.fr</p>
                     <div class="d-flex pt-2">
                         <a class="btn btn-square btn-outline-body me-1" href=""><i class="fab fa-twitter"></i></a>
                         <a class="btn btn-square btn-outline-body me-1" href=""><i class="fab fa-facebook-f"></i></a>
@@ -541,28 +530,22 @@
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
-                    <h3 class="text-light mb-4">Services</h3>
-                    <a class="btn btn-link" href="">Architecture</a>
-                    <a class="btn btn-link" href="">3D Animation</a>
-                    <a class="btn btn-link" href="">House Planning</a>
-                    <a class="btn btn-link" href="">Interior Design</a>
-                    <a class="btn btn-link" href="">Construction</a>
+                    <h3 class="text-light mb-4">les services</h3>
+                    <a class="btn btn-link" href="service.html">Architecture</a>
+                    <a class="btn btn-link" href="service.html">3D Animation</a>
+                    <a class="btn btn-link" href="service.html">House Planning</a>
+                    <a class="btn btn-link" href="service.html">Interior Design</a>
+                    <a class="btn btn-link" href="service.html">Construction</a>
                 </div>
                 <div class="col-lg-3 col-md-6">
-                    <h3 class="text-light mb-4">Quick Links</h3>
-                    <a class="btn btn-link" href="">About Us</a>
-                    <a class="btn btn-link" href="">Contact Us</a>
-                    <a class="btn btn-link" href="">Our Services</a>
-                    <a class="btn btn-link" href="">Terms & Condition</a>
-                    <a class="btn btn-link" href="">Support</a>
+                    <h3 class="text-light mb-4">Liens rapides</h3>
+                    <a class="btn btn-link" href="about.html">À propos</a>
+                    <a class="btn btn-link" href="contact.html">Contact</a>
+                    <a class="btn btn-link" href="service.html">les services</a>
+                    <a class="btn btn-link" href="contact.html">Support</a>
                 </div>
                 <div class="col-lg-3 col-md-6">
-                    <h3 class="text-light mb-4">Newsletter</h3>
-                    <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
-                    <div class="position-relative mx-auto" style="max-width: 400px;">
-                        <input class="form-control bg-transparent w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
-                        <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
-                    </div>
+                    <img class="mt-4" src="../img/CS-01.png" style="height: 150px; width: 100%;" alt="cs_logo">
                 </div>
             </div>
         </div>
@@ -570,7 +553,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                        &copy; <a href="#">Your Site Name</a>, All Right Reserved.
+                        &copy; <a>Creative Studio</a>
                     </div>
                 </div>
             </div>
@@ -586,17 +569,17 @@
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="lib/wow/wow.min.js"></script>
-    <script src="lib/easing/easing.min.js"></script>
-    <script src="lib/waypoints/waypoints.min.js"></script>
-    <script src="lib/counterup/counterup.min.js"></script>
-    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-    <script src="lib/tempusdominus/js/moment.min.js"></script>
-    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
-    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+    <script src="../lib/wow/wow.min.js"></script>
+    <script src="../lib/easing/easing.min.js"></script>
+    <script src="../lib/waypoints/waypoints.min.js"></script>
+    <script src="../lib/counterup/counterup.min.js"></script>
+    <script src="../lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="../lib/tempusdominus/js/moment.min.js"></script>
+    <script src="../lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="../lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
 
     <!-- Template Javascript -->
-    <script src="js/main.js"></script>
+    <script src="../js/main.js"></script>
 </body>
 
 </html>

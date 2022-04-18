@@ -1,6 +1,6 @@
 /********** Template CSS **********/
 :root {
-    --primary: #B78D65;
+    --primary: #7da9b6;
     --light: #F8F8F8;
     --dark: #252525;
 }
@@ -160,6 +160,16 @@ h6,
     }
 }
 
+.respon-loge{
+    width: 200px;
+}
+
+@media (max-width: 992px){
+    .respon-loge{
+        width: 180px;
+    } 
+}
+
 
 /*** Header ***/
 .owl-carousel-inner {
@@ -240,6 +250,27 @@ h6,
     color: var(--light);
 }
 
+/** clients section **/
+.clients {
+    background: #fff;
+    padding: 15px 0;
+    text-align: center;
+  }
+  .clients img {
+    max-width: 45%;
+    transition: all 0.4s ease-in-out;
+    display: inline-block;
+    padding: 15px 0;
+  }
+  .clients img:hover {
+    transform: scale(1.15);
+  }
+  @media (max-width: 768px) {
+    .clients img {
+      max-width: 40%;
+    }
+  }
+  
 
 /*** Section Title ***/
 .section-title {
@@ -367,6 +398,13 @@ h6,
 
 .project .nav .nav-link.active h3 {
     color: #FFFFFF !important;
+}
+
+@media (max-width: 280px){
+    .content1::after{
+        content: "\a";
+        white-space: pre;
+    }
 }
 
 /*** Footer ***/
