@@ -9,7 +9,7 @@
     <meta content="" name="description">
 
     <!-- Favicon -->
-    <link href="../img/favicon.svg" rel="icon">
+    <link href="../img/icons/favicon.png" rel="icon">
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -36,7 +36,7 @@
     <!-- Spinner Start -->
     <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
         <div class="spinner-border position-relative text-primary" style="width: 6rem; height: 6rem;" role="status"></div>
-        <img class="position-absolute top-50 start-50 translate-middle" src="../img/icons/icon-1.png" alt="Icon">
+        <img class="position-absolute top-50 start-50 translate-middle" width="50" src="../img/spinner.png" alt="Icon">
     </div>
     <!-- Spinner End -->
 
@@ -47,7 +47,7 @@
             <div class="col-lg-7 px-5 text-start" dir="ltr">
                 <div class="h-100 d-inline-flex align-items-center py-3 me-3">
                     <a class="text-body px-2" href="tel:+0123456789"><i class="fa fa-phone-alt text-primary me-2"></i> 05 28 21 52 30</a>
-                    <a class="text-body px-2" href="mailto:info@example.com"><i class="fa fa-envelope-open text-primary me-2"></i> creative.studion.infos@gmail.com</a>
+                    <a class="text-body px-2" href="mailto:info@example.com"><i class="fa fa-envelope-open text-primary me-2"></i> creative.studio@yahoo.fr</a>
                 </div>
             </div>
             <div class="col-lg-5 px-5 text-end">
@@ -64,27 +64,34 @@
 
 
     <!-- Navbar Start -->
-    <nav class="navbar navbar-expand-lg navbar-light sticky-top py-lg-0 px-lg-5 wow fadeIn" style="background-color: rgb(226, 225, 223);" data-wow-delay="0.1s">
-        <a href="index.html" class="navbar-brand ms-4 ms-lg-0">
-            <!-- <h1 class="text-primary m-0"><img class="me-3" src="../img/icons/icon-1.png" alt="Icon">Arkitektur</h1> -->
-            <img src="../img/logo.svg" alt="">
+    <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top py-lg-0 px-lg-5 wow fadeIn" data-wow-delay="0.1s">
+        <a href="index.html" class="navbar-brand ms-3 ms-lg-0">
+            <h1 class="text-primary m-0"><img src="../img/logo.png" class="respon-loge" alt="Icon"></h1>
         </a>
-        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+        <button type="button" class="navbar-toggler me-2" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse d-xl-flex justify-content-center" id="navbarCollapse">
+        <div class="collapse navbar-collapse d-xl-flex justify-content-between" id="navbarCollapse">
+            <div></div>
             <div class="navbar-nav p-4 p-lg-0">
                 <a href="index.html" class="nav-item nav-link active">الرئيسية</a>
                 <a href="about.html" class="nav-item nav-link">من نحن</a>
                 <a href="service.html" class="nav-item nav-link">الخدمات</a>
-                <div class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
-                    <div class="dropdown-menu border-0 m-0">
-                        <a href="feature.html" class="dropdown-item">ميزاتنا</a>
-                        <a href="project.html" class="dropdown-item">مشاريعنا</a>
-                    </div>
-                </div>
+                <a href="project.html" class="nav-item nav-link">مشاريعنا</a>
                 <a href="contact.html" class="nav-item nav-link">تواصل معنا</a>
+            </div>
+            <div class="btn-group ms-3">
+                <button type="button" class="btn btn-primary dropdown-toggle margin-for-btn" data-bs-toggle="dropdown" aria-expanded="false">
+                    <span>
+                        <img src="../img/icons/maroc.png" alt="">
+                        العربية
+                    </span>
+                </button>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="index.html"><img class="me-3" src="../img/icons/maroc.png" alt="">العربية</a></li>
+                    <li><a class="dropdown-item" href="../FR/index.html"><img class="me-3" src="../img/icons/france.png" alt="">francais</a></li>
+                    
+                </ul>
             </div>
         </div>
     </nav>
@@ -141,41 +148,32 @@
     <!-- Carousel End -->
 
 
-    <!-- Facts Start -->
-    <div class="container-xxl py-5">
-        <div class="container pt-5">
-            <div class="row g-4">
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="fact-item text-center bg-light h-100 p-5 pt-0">
-                        <div class="fact-icon">
-                            <img src="../img/icons/icon-2.png" alt="Icon">
-                        </div>
-                        <h3 class="mb-3">Design Approach</h3>
-                        <p class="mb-0">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="fact-item text-center bg-light h-100 p-5 pt-0">
-                        <div class="fact-icon">
-                            <img src="../img/icons/icon-3.png" alt="Icon">
-                        </div>
-                        <h3 class="mb-3">Innovative Solutions</h3>
-                        <p class="mb-0">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="fact-item text-center bg-light h-100 p-5 pt-0">
-                        <div class="fact-icon">
-                            <img src="../img/icons/icon-4.png" alt="Icon">
-                        </div>
-                        <h3 class="mb-3">Project Management</h3>
-                        <p class="mb-0">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
-                    </div>
-                </div>
+   <!-- ======= Clients Section ======= -->
+   <section id="clients" class="clients">
+    <div class="container" data-aos="zoom-in">
+        <div class="row">
+            <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+                <img src="../img/campany-1.png" class="img-fluid" alt="">
+            </div>
+            <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+            <img src="../img/campany-2.png" class="img-fluid" alt="">
+            </div>
+            <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+                <img src="../img/campany-3.png" class="img-fluid" alt="">
+            </div>
+            <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+                <img src="../img/campany-4.png" class="img-fluid" alt="">
+            </div>
+            <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+                <img src="../img/campany-5.png" class="img-fluid" alt="">
+            </div>
+            <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+                <img src="../img/campany-6.png" class="img-fluid" alt="">
             </div>
         </div>
     </div>
-    <!-- Facts End -->
+</section>
+<!-- End Clients Section -->
 
 
     <!-- About Start -->
@@ -189,17 +187,16 @@
                     </div>
                 </div>
                 <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
-                    <h4 class="section-title">معلومات عنا</h4>
-                    <h1 class="display-5 mb-4">A Creative Architecture Agency For Your Dream Home</h1>
-                    <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
-                    <p class="mb-4">Stet no et lorem dolor et diam, amet duo ut dolore vero eos. No stet est diam rebum amet diam ipsum. Clita clita labore, dolor duo nonumy clita sit at, sed sit sanctus dolor eos.</p>
+                    <h3 class="section-title"><span></span>معلومات عنا<span></span></h3>
+                    <h4 class="display-6 mb-4">شركة الطباعة الاحترافية التي ستوجهك في جميع احتياجاتك</h4>
+                    <p>مرحبًا بكم في شركة الطباعة المختصة والمحترفة التي ستوجهك في جميع احتياجاتك من أي نوع من الطباعة. مقرها في أغادير ، تسعى للحفاظ على ريادتها التكنولوجية بفضل جودتها وخبرتها في مجال الإعلان</p>
                     <div class="d-flex align-items-center mb-5">
                         <div class="d-flex flex-shrink-0 align-items-center justify-content-center border border-5 border-primary" style="width: 120px; height: 120px;">
                             <h1 class="display-1 mb-n2" data-toggle="counter-up">25</h1>
                         </div>
                         <div class="ps-4">
                             <h3>سنوات</h3>
-                            <h3>خبرة في</h3>
+                            <h3>الخبرة في</h3>
                             <h3 class="mb-0">العمل</h3>
                         </div>
                     </div>
@@ -216,7 +213,7 @@
         <div class="container">
             <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
                 <h4 class="section-title">خدماتنا</h4>
-                <h1 class="display-5 mb-4">We Focused On Modern Architecture And Interior Design</h1>
+                <h4 class="display-6 mb-4">ركزنا على التصميم الحديث</h4>
             </div>
             <div class="row g-4">
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
@@ -224,8 +221,8 @@
                         <img class="bg-img" src="../img/service-1.jpg" alt="">
                         <div class="service-text p-5">
                             <img class="mb-4" src="../img/icons/icon-5.png" alt="Icon">
-                            <h3 class="mb-3">Architecture</h3>
-                            <p class="mb-4">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
+                            <h3 class="mb-3">تعويض الانطباع</h3>
+                            <p class="mb-4">الأوفست هي عملية طباعة تمثل تحسينًا للطباعة الحجرية ، واستبدال حجر الطباعة الحجرية بصفيحة مرنة</p>
                             <!-- <a class="btn" href=""><i class="fa fa-plus text-primary me-3"></i>اقرأ أكثر</a> -->
                         </div>
                     </div>
@@ -297,15 +294,16 @@
             <div class="row g-5">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
                     <h4 class="section-title">لماذا أخترتنا!</h4>
-                    <h1 class="display-5 mb-4">لماذا يجب أن تثق بنا؟ تعلم المزيد عنا!</h1>
-                    <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
+                    <h4 class="display-6 mb-4">لماذا يجب أن تثق بنا؟ تعلم المزيد عنا!</h4>
+                    <p class="mb-4">يحتوي Creative Studio على أداة إنتاج حديثة ، مدفوعة بنظام إدارة إنتاج كامل ولديه ورشة تصنيع مجهزة بمعدات احترافية للغاية ، مما يتيح لنا أن نقدم لك:</p>
                     <div class="row g-4">
                         <div class="col-12">
                             <div class="d-flex align-items-start">
                                 <img class="flex-shrink-0" src="../img/icons/icon-2.png" alt="Icon">
                                 <div class="ms-4">
-                                    <h3>Design Approach</h3>
-                                    <p class="mb-0">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
+                                    <h4>Design Approach</h4>
+                                    <h4>Design Approach</h4>
+                                    <h4>Design Approach</h4>
                                 </div>
                             </div>
                         </div>
@@ -313,8 +311,9 @@
                             <div class="d-flex align-items-start">
                                 <img class="flex-shrink-0" src="../img/icons/icon-3.png" alt="Icon">
                                 <div class="ms-4">
-                                    <h3>Innovative Solutions</h3>
-                                    <p class="mb-0">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
+                                    <h4>Innovative Solutions</h4>
+                                    <h4>Innovative Solutions</h4>
+                                    <h4>Innovative Solutions</h4>
                                 </div>
                             </div>
                         </div>
@@ -322,8 +321,9 @@
                             <div class="d-flex align-items-start">
                                 <img class="flex-shrink-0" src="../img/icons/icon-4.png" alt="Icon">
                                 <div class="ms-4">
-                                    <h3>Project Management</h3>
-                                    <p class="mb-0">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
+                                    <h4>Project Management</h4>
+                                    <h4>Project Management</h4>
+                                    <h4>Project Management</h4>
                                 </div>
                             </div>
                         </div>
@@ -346,7 +346,7 @@
         <div class="container">
             <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
                 <h4 class="section-title">مشاريعنا</h4>
-                <h1 class="display-5 mb-4">قم بزيارة أحدث مشاريعنا وأعمالنا المبتكرة</h1>
+                <h4 class="display-6 mb-4">قم بزيارة أحدث مشاريعنا وأعمالنا المبتكرة</h4>
             </div>
             <div class="row g-4 wow fadeInUp" data-wow-delay="0.3s">
                 <div class="col-lg-4">
@@ -376,7 +376,7 @@
                                     </div>
                                 </div>
                                 <div class="col-md-6">
-                                    <h1 class="mb-3">25 عاما من الخبرة في النشر و الطباعة</h1>
+                                    <h3 class="mb-3">25 عاما من الخبرة في النشر و الطباعة</h3>
                                     <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
                                     <p><i class="fa fa-check text-primary me-3"></i>Design Approach</p>
                                     <p><i class="fa fa-check text-primary me-3"></i>Innovative Solutions</p>
@@ -394,7 +394,7 @@
                                     </div>
                                 </div>
                                 <div class="col-md-6">
-                                    <h1 class="mb-3">25 عاما من الخبرة في النشر و الطباعة</h1>
+                                    <h3 class="mb-3">25 عاما من الخبرة في النشر و الطباعة</h3>
                                     <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
                                     <p><i class="fa fa-check text-primary me-3"></i>Design Approach</p>
                                     <p><i class="fa fa-check text-primary me-3"></i>Innovative Solutions</p>
@@ -412,7 +412,7 @@
                                     </div>
                                 </div>
                                 <div class="col-md-6">
-                                    <h1 class="mb-3">25 عاما من الخبرة في النشر و الطباعة</h1>
+                                    <h3 class="mb-3">25 عاما من الخبرة في النشر و الطباعة</h3>
                                     <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
                                     <p><i class="fa fa-check text-primary me-3"></i>Design Approach</p>
                                     <p><i class="fa fa-check text-primary me-3"></i>Innovative Solutions</p>
@@ -430,7 +430,7 @@
                                     </div>
                                 </div>
                                 <div class="col-md-6">
-                                    <h1 class="mb-3">25 عاما من الخبرة في النشر و الطباعة</h1>
+                                    <h3 class="mb-3">25 عاما من الخبرة في النشر و الطباعة</h3>
                                     <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
                                     <p><i class="fa fa-check text-primary me-3"></i>Design Approach</p>
                                     <p><i class="fa fa-check text-primary me-3"></i>Innovative Solutions</p>
@@ -467,7 +467,7 @@
                             </div>
                             <div class="ms-4">
                                 <p class="mb-2">اتصل بنا الآن</p>
-                                <h3 class="mb-0" dir="ltr">05 28 21 52 30</h3>
+                                <h3 class="mb-0 text-start" dir="ltr">05 28 21 52 30</h3>
                             </div>
                         </div>
                         <div class="bg-light d-flex align-items-center w-100 p-2">
@@ -476,12 +476,12 @@
                             </div>
                             <div class="ms-4">
                                 <p class="mb-2">راسلنا بالبريد الآن</p>
-                                <!-- <h3 class="mb-0">creative.studion.infos@gmail.com</h3> -->
+                                <h3 class="mb-0 text-start" dir="ltr"><span class="content1">creative.studio</span><span>@yahoo.fr</span></h3>
                             </div>
                         </div>
                     </div>
                     <div class="my-4">
-                        <iframe class="w-100 mb-n2" style="height: 200px;"
+                        <iframe class="w-100 mb-n2" style="height: 215px;"
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d852.3962033116782!2d-9.570250270791927!3d30.409228055471385!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xdb3b64b7be65c17%3A0xa4856da89562744c!2sCr%C3%A9ative%20Studio!5e1!3m2!1sfr!2sma!4v1649525665107!5m2!1sfr!2sma" 
                         frameborder="0" allowfullscreen="" aria-hidden="false" tabindex="0">
                         </iframe>
@@ -490,7 +490,7 @@
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
                         <h4 class="section-title">اتصل بنا</h4>
-                        <h1 class="display-5 mb-4">إذا كان لديك أي استفسار ، فلا تتردد في الاتصال بنا</h1>
+                        <h4 class="display-6 mb-4">إذا كان لديك أي استفسار ، فلا تتردد في الاتصال بنا</h4>
                     </div>
                     <form>
                         <div class="row g-3">
@@ -534,10 +534,10 @@
         <div class="container py-5">
             <div class="row">
                 <div class="col-lg-3 col-md-6">
-                    <h3 class="text-light mb-4">العنوان</h3>
+                    <h4 class="text-light mb-4">العنوان</h4>
                     <p class="mb-2"><i class="fa fa-map-marker-alt text-primary me-3"></i>Créative Studio Rue Badr, Agadir 80000</p>
                     <p class="mb-2"><i class="fa fa-phone-alt text-primary me-3"></i>05 28 21 52 30</p>
-                    <p class="mb-2"><i class="fa fa-envelope text-primary me-3"></i>creative.studion.infos@gmail.com</p>
+                    <p class="mb-2"><i class="fa fa-envelope text-primary me-3"></i>creative.studio@yahoo.fr</p>
                     <div class="d-flex pt-2">
                         <a class="btn btn-square btn-outline-body me-1" href=""><i class="fab fa-twitter"></i></a>
                         <a class="btn btn-square btn-outline-body me-1" href=""><i class="fab fa-facebook-f"></i></a>
@@ -546,7 +546,7 @@
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
-                    <h3 class="text-light mb-4">الخدمات</h3>
+                    <h4 class="text-light mb-4">الخدمات</h4>
                     <a class="btn btn-link" href=""> Architecture</a>
                     <a class="btn btn-link" href=""> 3D Animation</a>
                     <a class="btn btn-link" href=""> House Planning</a>
@@ -554,18 +554,13 @@
                     <a class="btn btn-link" href=""> Construction</a>
                 </div>
                 <div class="col-lg-3 col-md-6">
-                    <h3 class="text-light mb-4"> روابط سريعة</h3>
+                    <h4 class="text-light mb-4"> روابط سريعة</h4>
                     <a class="btn btn-link" href=""> من نحن</a>
                     <a class="btn btn-link" href=""> تواصل معنا</a>
                     <a class="btn btn-link" href=""> خدماتنا</a>
                 </div>
                 <div class="col-lg-3 col-md-6">
-                    <h3 class="text-light mb-4">Newsletter</h3>
-                    <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
-                    <div class="position-relative mx-auto" style="max-width: 400px;">
-                        <input class="form-control bg-transparent w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
-                        <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
-                    </div>
+                    <img class="mt-4" src="../img/CS-01.png" style="height: 150px; width: 100%;" alt="cs_logo">
                 </div>
             </div>
         </div>
@@ -573,7 +568,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                        &copy; <a href="#">Your Site Name</a>, جميع الحقوق محفوظة.
+                        &copy; <a href="#">Creative Studio</a>
                     </div>
                 </div>
             </div>

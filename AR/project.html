@@ -9,7 +9,7 @@
     <meta content="" name="description">
 
     <!-- Favicon -->
-    <link href="../img/favicon.svg" rel="icon">
+    <link href="../img/icons/favicon.png" rel="icon">
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -36,7 +36,7 @@
     <!-- Spinner Start -->
     <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
         <div class="spinner-border position-relative text-primary" style="width: 6rem; height: 6rem;" role="status"></div>
-        <img class="position-absolute top-50 start-50 translate-middle" src="../img/icons/icon-1.png" alt="Icon">
+        <img class="position-absolute top-50 start-50 translate-middle" width="50" src="../img/spinner.png" alt="Icon">
     </div>
     <!-- Spinner End -->
 
@@ -47,7 +47,7 @@
             <div class="col-lg-7 px-5 text-start" dir="ltr">
                 <div class="h-100 d-inline-flex align-items-center py-3 me-3">
                     <a class="text-body px-2" href="tel:+0123456789"><i class="fa fa-phone-alt text-primary me-2"></i> 05 28 21 52 30</a>
-                    <a class="text-body px-2" href="mailto:info@example.com"><i class="fa fa-envelope-open text-primary me-2"></i> creative.studion.infos@gmail.com</a>
+                    <a class="text-body px-2" href="mailto:info@example.com"><i class="fa fa-envelope-open text-primary me-2"></i> creative.studio@yahoo.fr</a>
                 </div>
             </div>
             <div class="col-lg-5 px-5 text-end">
@@ -64,27 +64,35 @@
 
 
     <!-- Navbar Start -->
-    <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top py-lg-0 px-lg-5 wow fadeIn" style="background-color: rgb(226, 225, 223);" data-wow-delay="0.1s">
-        <a href="index.html" class="navbar-brand ms-4 ms-lg-0">
-            <!-- <h1 class="text-primary m-0"><img class="me-3" src="../img/icons/icon-1.png" alt="Icon">Arkitektur</h1> -->
-            <img src="../img/logo.svg" alt="">
+    <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top py-lg-0 px-lg-5 wow fadeIn" data-wow-delay="0.1s">
+        <a href="index.html" class="navbar-brand ms-3 ms-lg-0">
+            <h1 class="text-primary m-0"><img src="../img/logo.png" class="respon-loge" alt="Icon"></h1>
         </a>
-        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+        <button type="button" class="navbar-toggler me-2" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse d-xl-flex justify-content-center" id="navbarCollapse">
+        <div class="collapse navbar-collapse d-xl-flex justify-content-between" id="navbarCollapse">
+            <div></div>
             <div class="navbar-nav p-4 p-lg-0">
                 <a href="index.html" class="nav-item nav-link">الرئيسية</a>
                 <a href="about.html" class="nav-item nav-link">من نحن</a>
                 <a href="service.html" class="nav-item nav-link">الخدمات</a>
-                <div class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle active" data-bs-toggle="dropdown">Pages</a>
-                    <div class="dropdown-menu border-0 m-0">
-                        <a href="feature.html" class="dropdown-item">Our Features</a>
-                        <a href="project.html" class="dropdown-item active">مشاريعنا</a>
-                    </div>
-                </div>
+                <a href="project.html" class="nav-item nav-link active">مشاريعنا</a>
                 <a href="contact.html" class="nav-item nav-link">تواصل معنا</a>
+            </div>
+            
+            <div class="btn-group ms-3">
+                <button type="button" class="btn btn-primary dropdown-toggle margin-for-btn" data-bs-toggle="dropdown" aria-expanded="false">
+                    <span>
+                        <img src="../img/icons/maroc.png" alt="">
+                        العربية
+                    </span>
+                </button>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="index.html"><img class="me-3" src="../img/icons/maroc.png" alt="">العربية</a></li>
+                    <li><a class="dropdown-item" href="../FR/index.html"><img class="me-3" src="../img/icons/france.png" alt="">francais</a></li>
+                    
+                </ul>
             </div>
         </div>
     </nav>
@@ -112,7 +120,7 @@
         <div class="container">
             <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
                 <h4 class="section-title">مشاريعنا</h4>
-                <h1 class="display-5 mb-4">قم بزيارة أحدث مشاريعنا وأعمالنا المبتكرة</h1>
+                <h4 class="display-6 mb-4">قم بزيارة أحدث مشاريعنا وأعمالنا المبتكرة</h4>
             </div>
             <div class="row g-4 wow fadeInUp" data-wow-delay="0.3s">
                 <div class="col-lg-4">
@@ -221,7 +229,7 @@
                     <h3 class="text-light mb-4">العنوان</h3>
                     <p class="mb-2"><i class="fa fa-map-marker-alt text-primary me-3"></i>Créative Studio Rue Badr, Agadir 80000</p>
                     <p class="mb-2"><i class="fa fa-phone-alt text-primary me-3"></i>05 28 21 52 30</p>
-                    <p class="mb-2"><i class="fa fa-envelope text-primary me-3"></i>creative.studion.infos@gmail.com</p>
+                    <p class="mb-2"><i class="fa fa-envelope text-primary me-3"></i>creative.studio@yahoo.fr</p>
                     <div class="d-flex pt-2">
                         <a class="btn btn-square btn-outline-body me-1" href=""><i class="fab fa-twitter"></i></a>
                         <a class="btn btn-square btn-outline-body me-1" href=""><i class="fab fa-facebook-f"></i></a>
@@ -244,12 +252,7 @@
                     <a class="btn btn-link" href="">خدماتنا</a>
                 </div>
                 <div class="col-lg-3 col-md-6">
-                    <h3 class="text-light mb-4">Newsletter</h3>
-                    <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
-                    <div class="position-relative mx-auto" style="max-width: 400px;">
-                        <input class="form-control bg-transparent w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
-                        <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
-                    </div>
+                    <img class="mt-4" src="../img/CS-01.png" style="height: 150px; width: 100%;" alt="cs_logo">
                 </div>
             </div>
         </div>
@@ -257,7 +260,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                        &copy; <a href="#">Your Site Name</a>, جميع الحقوق محفوظة.
+                        &copy; <a href="#">Creative Studio</a>
                     </div>
                 </div>
             </div>
